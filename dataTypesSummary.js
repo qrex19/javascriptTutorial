@@ -39,3 +39,26 @@ const myFunction = function() {
 }
 
 console.log(typeof bigNumber)
+
+// ***********************************************
+
+//stack (Primitive), Heap(Non-primitive)
+//Heap: call by value, original value gets changed
+//Stack: call by reference, the copy of the value gets changed
+
+let userOne = {
+    name: 'nishant',
+    age: 21,
+    accountNumber: 123234234
+}
+
+console.log(userOne)
+
+let userTwo = userOne
+
+userTwo.age = 23 //userOne value also gets changed, as Heap values are called by value
+
+
+
+console.log(userOne)
+console.log(userTwo)
