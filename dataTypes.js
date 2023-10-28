@@ -4,9 +4,9 @@
 
 //Code readibility must be high
 
-let name = 'nishant'
-let age = 18
-let isLoggedIn = true
+let name = "nishant";
+let age = 18;
+let isLoggedIn = true;
 let state;
 
 // number range is 2 to power 53
@@ -14,11 +14,9 @@ let state;
 //string=> ""
 //boolean => true/false
 // null => standalone value
-// undefined => 
+// undefined =>
 // symbol => unique
-
 
 // object
 
-console.log(typeof null) //prints 'Object' because null is an object
-
+console.log(typeof null); //prints 'Object' because null is an object
